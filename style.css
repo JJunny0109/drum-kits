@@ -4,12 +4,15 @@
   left: 50%;
   transform: translate(-50%, -70%);
   text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* 그림자 효과 추가 */
+  border-radius: 10px; /* 둥근 모서리 적용 */
+  padding: 1% 5% 5% 5%;
 }
 
 
 
 .img{
-  width: 200px; /* 원하는 가로 크기로 설정 */
-  height: 200px; /* 원하는 세로 크기로 설정 */
+  width: 100px; /* 원하는 가로 크기로 설정 */
+  height: 100px; /* 원하는 세로 크기로 설정 */
   object-fit: contain; /* 이미지를 컨테이너에 맞게 조절하면서 비율 유지 */
 }
